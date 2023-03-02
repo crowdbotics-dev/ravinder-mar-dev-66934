@@ -1,3 +1,4 @@
+import { TextInput } from "react-native";
 import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
@@ -13,7 +14,7 @@ const Untitled2 = ({
       flex: 1
     }}><Pressable onPress={{}}><Pressable onPress={() => {
           navigation.navigate("Untitled1");
-        }}><View style={styles.ztrtIcPp}></View></Pressable></Pressable></ScrollView>
+        }}><View style={styles.ztrtIcPp}></View></Pressable></Pressable><TextInput style={styles.dAidCpcy}></TextInput></ScrollView>
     </SafeAreaView>;
 };
 
@@ -27,6 +28,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#9f5252",
     borderRadius: 0,
     color: "#777777"
+  },
+  dAidCpcy: {
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30
   }
 });
 export default Untitled2;
